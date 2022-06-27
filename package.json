@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "react-snowpack-from-scratch",
+  "version": "1.0.0",
+  "scripts": {
+    "development": "snowpack dev",
+    "production": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardianmaliqaj-git/react-snowpack-from-scratch.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ardianmaliqaj-git/react-snowpack-from-scratch/issues"
+  },
+  "homepage": "https://github.com/ardianmaliqaj-git/react-snowpack-from-scratch#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.17.12",
+    "@babel/preset-react": "^7.17.12",
+    "@snowpack/plugin-babel": "^2.1.7",
+    "@snowpack/plugin-react-refresh": "^2.5.0",
+    "snowpack": "^3.8.8"
+  }
+}
